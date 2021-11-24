@@ -1,4 +1,7 @@
 package com.epam.calculator;
 
-public class calculator {
+public class Calculator {
+    public static int Add(int first, int second) {
+        return first + second;
+    }
 }
