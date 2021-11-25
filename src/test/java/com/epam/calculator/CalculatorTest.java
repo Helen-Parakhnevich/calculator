@@ -32,6 +32,19 @@ public class CalculatorTest {
     }
 
     @Test
+    public void testSubtractionWhenNumbersPositive() {
+        //given
+        int firstArgument = 1;
+        int secondArgument = 2;
+
+        //when
+        int result = Calculator.Subtraction(firstArgument, secondArgument);
+
+        //then
+        Assert.assertEquals(-1, result);
+    }
+
+    @Test
     public void testSubtractionWhenNumbersNegative() {
         //given
         int firstArgument = -1;
