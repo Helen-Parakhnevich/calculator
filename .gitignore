@@ -1,0 +1,10 @@
+# IDEs and editors
+/.idea
+.project
+.classpath
+/target
+
+# System Files
+.DS_Store
+Thumbs.db
+
