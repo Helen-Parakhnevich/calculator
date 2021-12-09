@@ -3,19 +3,19 @@ package com.epam.calculator;
 import java.util.List;
 
 public class Calculator {
-    public static int add(int first, int second) {
+    public int add(int first, int second) {
         return first + second;
     }
 
-    public static int subtract(int first, int second) {
+    public int subtract(int first, int second) {
         return first - second;
     }
 
-    public static int multiply(int first, int second) {
+    public int multiply(int first, int second) {
         return first * second;
     }
 
-    public static int divide(int first, int second) {
+    public int divide(int first, int second) {
         try {
          return first / second;
         } catch (ArithmeticException e) {
@@ -23,7 +23,7 @@ public class Calculator {
         }
     }
 
-    public static double extractSquareRoot(double argument) {
+    public double extractSquareRoot(double argument) {
         double result =0.0;
 
         result = Math.sqrt(argument);
@@ -33,7 +33,7 @@ public class Calculator {
         else return result;
     }
 
-    public static double extractRoot(double argument, double index) {
+    public double extractRoot(double argument, double index) {
         double result =0.0;
 
         result = Math.pow(argument, 1/index);
@@ -43,7 +43,7 @@ public class Calculator {
         else return result;
     }
 
-    public static double raisePower(double base, double power) {
+    public double raisePower(double base, double power) {
         return Math.pow(base, power);
     }
 
